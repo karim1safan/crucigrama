@@ -71,6 +71,7 @@ Une fois le mot croisé personnalisé chargé, vous pouvez l'imprimer en cliquan
 
 Cliquez sur le bouton **Imprimer**
 
+![image](assets/readme/print.png)
 
 La page suivante s'ouvrira pour l'impression. Dans le menu à droite, vous pouvez choisir entre l'imprimer (avec votre imprimante installée) ou l'enregistrer au format PDF.
 

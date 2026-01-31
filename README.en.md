@@ -71,4 +71,6 @@ Once your custom crossword is loaded, you can print it by clicking the correspon
 
 Click the **Print** button  
 
+![image](assets/readme/print.png)
+
 The following page will open for printing. In the selection panel on the right, you can choose to print it (with your configured printer) or save it as a PDF.
