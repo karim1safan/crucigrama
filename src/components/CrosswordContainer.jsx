@@ -108,7 +108,8 @@ export const DrawCrossword = ({ showAnswers, handleKeyDown, inputRefs }) => {
 
 const CrosswordContainer = () => {
   const { answers } = useContext(AppContext);
-  const inputRefs = useRef(answers.map(() => Array(36).fill(null)));
+  const maxWordLength = answers.reduce((max, word) => Math.max(max, word.length), 0);
+  const inputRefs = useRef(answers.map(() => Array(maxWordLength).fill(null)));
 
   const handleKeyDown = (e, i, j) => {
     const key = e.key;
